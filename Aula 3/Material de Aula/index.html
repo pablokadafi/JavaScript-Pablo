@@ -2,18 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repetições e array</title>
-</head>
-<style>
-    body{
-        background-color: gray;
-    }
-</style>
-<body>
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="geral.css">
     
+    <script src="js/script3.js"></script>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: unset;
+            margin-top: 20px;
+        }
 
-    <script src="js/script2.js"></script>
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="section">
+    <h1>Cadastro de Filmes</h1>
+
+    <form id="secao">
+        <label id="label" for="nome">Nome do Filme:</label>
+        <input id="input" type="text" id="nome" required><br>
+
+        <label id="label" for="descricao">Descrição:</label>
+        <input id="input" id="descricao" required></textarea><br>
+
+        <label id="label" for="data">Data de Lançamento:</label>
+        <input id="input" type="date" id="data" required><br>
+
+        <label id="label" for="diretor">Diretor:</label>
+        <input id="input" type="text" id="diretor" required><br>
+
+        <label id="label" for="categoria">Categoria:</label>
+        <input id="input" type="text" id="categoria" required><br>
+
+        <button type="button" onclick="salvarFilme()">Salvar Filme</button>
+    </form>
+</section>
+
+    <h2>Lista de Filmes</h2>
+    <table id="filmeTable">
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Data de Lançamento</th>
+            <th>Diretor</th>
+            <th>Categoria</th>
+        </tr>
+    </table>
+
+   
+
 </body>
 </html>

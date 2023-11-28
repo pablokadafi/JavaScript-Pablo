@@ -1,0 +1,31 @@
+h1{
+    font-size: 30pt;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 217, 252);
+}
+#section{
+    height: 500px;
+    flex-direction: row
+    
+}
+#secao{
+align-items:flex-end;
+}
+#label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+    flex-direction: column;
+}
+#input{
+    margin: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    
+}
+#filmeTable{
+    align-items: flex-end;
+    justify-items: center;
+}
