@@ -7,28 +7,12 @@
     <link rel="stylesheet" href="geral.css">
     
     <script src="js/script3.js"></script>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: unset;
-            margin-top: 20px;
-        }
-
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+   
 </head>
 <body>
-
-    <section id="section">
     <h1>Cadastro de Filmes</h1>
+    <section class="section">
+    
 
     <form id="secao">
         <label id="label" for="nome">Nome do Filme:</label>
@@ -46,7 +30,7 @@
         <label id="label" for="categoria">Categoria:</label>
         <input id="input" type="text" id="categoria" required><br>
 
-        <button type="button" onclick="salvarFilme()">Salvar Filme</button>
+        <button id="salvar" type="button" onclick="salvarFilme()">Salvar Filme</button>
     </form>
 </section>
 

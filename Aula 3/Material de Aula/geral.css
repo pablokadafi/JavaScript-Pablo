@@ -1,25 +1,45 @@
+
 h1{
     font-size: 30pt;
 }
 body{
+    
     display: flex;
-    flex-direction: column;
     background-color: rgb(246, 217, 252);
 }
-#section{
-    height: 500px;
-    flex-direction: row
-    
+.section{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    height: 800px;
+   justify-content: center;
+}
+h1{
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+   justify-content: center;
+  
 }
 #secao{
-align-items:flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: right;
 }
 #label{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20pt;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+#salvar{
+    justify-content: flex-end;
 }
 #input{
+    height: 10px;
     margin: 10px;
     padding: 3px;
     border-radius: 3px;
@@ -28,4 +48,23 @@ align-items:flex-end;
 #filmeTable{
     align-items: flex-end;
     justify-items: center;
+}
+table {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+  
+   
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
 }
