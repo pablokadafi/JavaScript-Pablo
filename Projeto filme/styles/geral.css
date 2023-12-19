@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+}
+
+.filme {
+    margin-bottom: 2em;
+}
+
+.poltrona {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1em;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+.filme-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px; /* Adiciona margem inferior para separar os filmes */
+}
+
+.filme h2 {
+    position: absolute;
+    top: 0; /* Posiciona o título no topo do contêiner pai */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px; /* Adiciona um espaçamento para melhor legibilidade */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor contraste */
+    width: 100%;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+
+.filme-imagem {
+    width: 300px;
+    height: auto;
+    }
+    /* Estilo do botão */
+.filme-container button {
+    display: block;
+    margin: 10px auto; /* Espaçamento interno para o botão e centralização */
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
+}
+
+/* Estilo do botão ao passar o mouse */
+.filme-container button:hover {
+    background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
+}
+/* Personalização para a página de poltronas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+    }
+.poltrona {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1em;
+    border: 1px solid #333;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.poltrona:hover {
+    background-color: #ddd;
+}
+.pagamento-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagamento-btn:hover {
+    background-color: #218838;
+    }
+    .compra-btn {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #3498db; /* Cor de fundo do botão */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.1s ease; /* Adiciona efeito de transição para o hover e clique */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+    
+    .compra-btn:hover {
+        background-color: #2980b9; /* Cor de fundo alterada ao passar o mouse */
+    }
+    
+    /* Efeito de transição */
+    .compra-btn:active {
+        transform: translateY(2px); /* Efeito de pressionar o botão */
+    }
+
+
